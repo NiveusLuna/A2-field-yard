@@ -1,0 +1,262 @@
+classlabel = "shipyard"
+race = "klingon"
+buildtime = 5
+recycletime = 0
+maxhealth = 5000
+curhealth = 5000
+healthrate = 5000
+maxshields = 5000
+curshields = 5000
+shieldrate = 5000
+shieldgeneratorhitpoints = 5000
+engineshitpoints = 0
+weaponshitpoints = 0
+sensorshitpoints = 5000
+attackpower = 0.000
+intrinsicvalue = 0.000
+eventselect = "KlingonFieldYardSelect"
+builder_ship = 1
+has_crew = 0
+buildanimation = 0
+repairanimation = 0
+createfootprint = 0
+destroyfootprint = 0
+constructionvoice = 2
+buildhardpoint = "root"
+repairhardpoint = "hp98"
+repairside = 8
+invincible = 1
+invalidastarget = 1
+ignoredastarget = 1
+avoidme = 0
+avoidanceclass = 0
+ignoreinterface = 1
+hidden = 1
+fireball = "x_no_explosion"
+enginestargethardpoints = "root"
+lifesupporttargethardpoints = "root"
+weaponstargethardpoints = "root"
+shieldgeneratortargethardpoints = "root"
+sensorstargethardpoints = "root"
+hulltargethardpoints = "root"
+criticaltargethardpoints = "root"
+is_starbase = 1
+ainame = "StarbaseProcess"
+officercost = 0
+shielddelay = 2
+damagedscan = 50.0f
+weldingradius = 1.0
+footprintbuffer = 50.0f
+repairyellow = 2.0f
+repairred = 4.0f
+enginesrepairtime = 0.25
+lifesupportrepairtime = 0.0625
+weaponsrepairtime = 0.25
+shieldgeneratorrepairtime = 0.25
+sensorsrepairtime = 0.25
+enginescrewloss = 5.0f
+lifesupportcrewloss = 5.0f
+weaponscrewloss = 8.0f
+shieldgeneratorcrewloss = 8.0f
+sensorscrewloss = 5.0f
+lifesupportloss = 0.5
+engineshitpercent = 0.0f
+lifesupporthitpercent = 7.0f
+weaponshitpercent = 7.0f
+shieldgeneratorhitpercent = 1.0f
+sensorshitpercent = 0
+crewhitpercent = 7.0f
+hullhitpercent = 78.0f
+facility = 1
+transporter = 1
+has_hitpoints = 1
+checkvalidresourceinterval = 10.0f
+alert = 1
+show_sw_autonomy = 1
+show_movement_autonomy = 1
+combat = 1
+can_sandd = 0
+eventacknowledge = "StarbaseAcknowledge"
+eventattack = "StarbaseAttack"
+eventdecommission = "StarbaseDecommission"
+specialenergydisplaymode = 1
+extraweaponhardpoints = "root"
+maxextraweapons = 10
+rangescan = 600
+clearsfog = 0
+perceivedneutral = 1
+possiblecraftnames = 
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"
+	"Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section" "Starbase Section"

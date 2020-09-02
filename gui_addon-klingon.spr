@@ -1,0 +1,25 @@
+sprite_table
+
+#############################									
+######  Build Buttons  ######									
+#############################									
+@reference=512									
+@tmaterial=interface									
+b_kli_field_yard	all_interface_buildbuttons04	208	104	96	96		#	3	2
+b_kli_field_yardP1	all_interface_buildbuttons08	0	416	96	96		#	1	5
+b_kli_field_yardP2	all_interface_buildbuttons08	104	416	96	96		#	2	5
+b_kli_field_yardP3Z	all_interface_buildbuttons08	208	416	96	96		#	3	5
+
+#############################									
+######   Wireframes    ######									
+#############################
+# Hope this works!
+@reference=1024
+@tmaterial=interface
+@skip=off
+kli_field_yard_si systembackgrounds4 512 384 512 128
+kli_field_yardP1_si systembackgrounds4 512 384 512 128
+kli_field_yardP2_si systembackgrounds4 0 512 512 128
+kli_field_yardP3_si systembackgrounds4 0 512 512 128
+kli_field_yardP3Y_si systembackgrounds4 0 512 512 128
+kli_field_yardP3Z_si systembackgrounds4 0 512 512 128
